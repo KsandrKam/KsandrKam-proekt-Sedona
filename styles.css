@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url(../fonts/pt-sans-regular.woff2) format(woff2),
+        url(../font.woff) format(woff);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-style: normal;
+    src:
+        url(fonts/pt-sans-bold.woff2) format(woff2),
+        url(font.woff) format(woff);
+    font-display: swap;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: PT Sans, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.page-header {
+    background-color: white;
+    color: black;
+}
+
+.navigation-link {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.user-link {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-header {
+    background: #756257;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.adventages-list {
+    text-align: center;
+}
+
+.adventages-main-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+}
+
+.advantages-5 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.adventages-title {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.adventages-discription {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.adventages-number {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+
+.main-logo-page {
+    background-size: Width=1200 Height=485;
+    background-color: black;
+    background: url(../images/index-background.png) no-repeat center;
+    text-align: center;
+}
+
+.hotel {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.hotel-main-title {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.hotel-direct {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+
+.button-search {
+    background: #756257;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: inherit;
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.mail-section {
+
+    background-color: rgb(127, 136, 255);
+    background: url(../images/background-mail.png) no-repeat center;
+    color: white;
+    text-align: center;
+    background-size: Width=1200px Height=485px;
+}
+
+.mail-title {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: inherit;
+}
+
+.mail-direct {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    font-family: PT Sans, sans-serif;
+    font-weight: 400;
+}
+
+.mail-form {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    font-family: PT Sans, sans-serif;
+}
+
+.button-mail {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    background: #83B3D3;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.page-footer {
+    background-color: white;
+    color: #000;
+}
+
+.button .button-f {
+    background-color: white;
+    color: white;
+}
+
+.contact {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.filter-form {
+    background-color: black;
+    background: url(../images/catalog-background\ 1.png) no-repeat center;
+    width: 1200px;
+    height: 400px;
+    color: white;
+}
+
+.hotels-sedona-title {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+}
+.filter-grour-title {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+.control-label {
+    font-size: 18px;
+    line-height: 23px;   
+}
+.searching-hotels {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.coast {
+    font-size: 18px;
+    line-height: 23px;   
+}
+.product-card-title {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;  
+}
+.product-card-type,.product-card-price,.pagination-form {
+    font-size: 18px;
+    line-height: 23px;
+}
+.product-card-button-button {
+    font-size: 16px;
+    line-height: 21px; 
+}
+.loading-add,.pagination-item {
+    font-family: PT Sans, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px; 
+}
